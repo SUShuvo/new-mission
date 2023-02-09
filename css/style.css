@@ -83,9 +83,9 @@ button {
     margin-top: 55px ;
 }
 .mindset {
-    background-image: url(../images/gradient2.png);
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-repeat: no-repeat;
-    height: 180px;
+    height: 200px;
     width: 80%;
     border-radius: 5px;
 }
@@ -103,4 +103,56 @@ button {
     font-size: 14px;
     margin-top: 25px;
     margin-left: 90px;
+}
+/* footer section styles */
+footer {
+    height: 400px;
+    margin-top: 100px;
+    background-color: #151414;
+}
+.footer-section {
+    display: flex;
+    gap: 350px;
+}
+.footer-future {
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.footer-title {
+    color: #F8F8F8;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.footer-description {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer-subtitle {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.subscribe-title {
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.email-box {
+    background-color: #151414;
+    color: #F3F3F3;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.subscribe {
+    padding-top: 70px;
+}
+.subscribe-btn {
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 20px;
+    color: #F15B22;
+    font-size: 14px;
+    margin-top: 20px;
 }
