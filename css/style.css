@@ -77,3 +77,30 @@ button {
 .plan-subtitle {
     color: #737272;
 }
+/* positive mindset section */
+.positive-mindset {
+    padding-left: 200px;
+    margin-top: 55px ;
+}
+.mindset {
+    background-image: url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 80%;
+    border-radius: 5px;
+}
+.mindset-title {
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+.call-btn {
+    border-radius: 5px;
+    border: 0;
+    padding: 12px 20px;
+    color: #F15B22;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 90px;
+}
